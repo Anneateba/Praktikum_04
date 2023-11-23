@@ -21,7 +21,7 @@ if ('getBattery' in navigator || ('battery' in navigator && 'Promise' in window)
   function onLevelChange() {
     handleChange('Battery level changed to ' + this.level + '');
   }
-}
+
   var batteryPromise;
   
   if ('getBattery' in navigator) {
